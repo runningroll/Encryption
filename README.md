@@ -43,7 +43,7 @@ String decrypted = encryption.decryptOrNull(encrypted);
 
 1º Encrypt Function
 
-2º Add the gradle dependency
+2º Decrypt Function
 
 
 ## Custom usage ##
