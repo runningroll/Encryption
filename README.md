@@ -46,6 +46,9 @@ String decrypted = encryption.decryptOrNull(encrypted);
 assertNotNull(encryption);
 String data = null;
 assertNull(encryption.encrypt(data));
+
+data = "encrypting";
+assertNotNull(encryption.encrypt(data));
 ```
 
 2º testing null & Decryption
@@ -53,6 +56,10 @@ assertNull(encryption.encrypt(data));
 assertNotNull(encryption);
 String data = null;
 assertNull(encryption.decrypt(data));
+
+data = "encrypting";
+String encrypted = encryption.encrypt(data);
+assertNotNull(encryption.decrypt(encrypted));
 ```
 
 
