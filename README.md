@@ -39,6 +39,10 @@ String encrypted = encryption.encryptOrNull("Text to be encrypt");
 ```
 String decrypted = encryption.decryptOrNull(encrypted);
 ```
+## Encryption Data ##
+
+1º Add [JitPack](https://jitpack.io/) to your build file
+
 
 ## Custom usage ##
 
