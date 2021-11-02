@@ -41,9 +41,19 @@ String decrypted = encryption.decryptOrNull(encrypted);
 ```
 ## Test ##
 
-1º Encrypt Function
+1º testing Encryption
+```
+assertNotNull(encryption);
+String data = null;
+assertNull(encryption.encrypt(data));
+```
 
-2º Decrypt Function
+2º testing Decryption
+```
+assertNotNull(encryption);
+String data = null;
+assertNull(encryption.decrypt(data));
+```
 
 
 ## Custom usage ##
