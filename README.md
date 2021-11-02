@@ -41,14 +41,14 @@ String decrypted = encryption.decryptOrNull(encrypted);
 ```
 ## Test ##
 
-1º testing Encryption
+1º testing null & Encryption
 ```
 assertNotNull(encryption);
 String data = null;
 assertNull(encryption.encrypt(data));
 ```
 
-2º testing Decryption
+2º testing null & Decryption
 ```
 assertNotNull(encryption);
 String data = null;
